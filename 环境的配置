@@ -1,0 +1,14 @@
+1、安装python3.6
+2、安装虚拟环境 virtualenv
+  2.1、python3 -m pip install virtualenv
+  2.2、创建虚拟目录 virtualenv myblog
+  2.3、激活虚拟环境，定位到myblog/scripts中，执行activate.bat或者activate
+  2.4、取消激活  deactivate.bat
+3、安装virtualenvwrapper
+  使用virtualenv的话，需要进入相对应的路径，这样一来就相对麻烦，但是可以通过使用virtualwrapper来简化对虚拟环境的操作
+  3.1安装windows下的 virtualenvwrapper  python3 -m pip install virtualenvwrapper-win
+  3.2新建虚拟环境 mkvirtualenv myblog
+  3.3查看虚拟环境 workon
+  3.4进入虚拟环境  workon myblog
+  3.5退出虚拟环境  deactivate
+  如果这个虚拟环境不打算要了，直接将这个目录删掉就可以了。
